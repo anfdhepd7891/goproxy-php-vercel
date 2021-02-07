@@ -5,8 +5,8 @@
     }
   },
   "routes": [
-    { "src": "/proxy/(?<tmp0>[/s/S]*)", "dest": "https://$tmp0" },
-    { "src": "/xrea-goproxy(?<tmp>[/s/S]*)", "dest": "https://xrea-goproxy.peterz.ml" },
+    { "src": "/proxy/(?<tmp0>[/s/S]*)", "dest": "https://www.$tmp0.com" },
+    { "src": "/xrea-goproxy(?<tmp>[/s/S]*)", "dest": "https://xrea-goproxy.peterz.ml/$tmp" },
     { "src": "/",  "dest": "/api/index.php" }
   ]
 }

@@ -5,7 +5,7 @@
     }
   },
   "routes": [
-    { "src": "/xrea/(<id>*)", "dest": "https://www.google.com/$id" },
+    { "src": "/xrea/(?<id>[^]*)", "dest": "https://www.google.com/$id" },
     { "src": "/vc-goproxy/(.*)",  "dest": "/api/index.php" }
   ]
 }

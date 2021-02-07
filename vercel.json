@@ -5,7 +5,7 @@
     }
   },
   "routes": [
-    { "src": "/xrea-goproxy/.*",  "dest": "https://www.google.com" },
+    { "src": "/xrea-goproxy/.*",  "dest": "https://www.baidu.com" },
     { "src": "/vc-goproxy/(.*)",  "dest": "/api/index.php" }
   ]
 }

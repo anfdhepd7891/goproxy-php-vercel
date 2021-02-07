@@ -5,7 +5,7 @@
     }
   },
   "routes": [
-    { "src": "/xrea/(?<id>[^]*)", "dest": "https://xrea-goproxy.peterz.ml/$id" },
+    { "src": "/xrea/*", "dest": "https://xrea-goproxy.peterz.ml" },
     { "src": "/(.*)",  "dest": "/api/index.php" }
   ]
 }

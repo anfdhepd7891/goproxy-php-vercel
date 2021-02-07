@@ -21,8 +21,8 @@
     { "src": "/horain-goproxy-hk2(?<tmp>[/s/S]*)", "dest": "https://horain-goproxy-hk2.peterz.ml/$tmp" },
     { "src": "/horain-goproxy-hk3(?<tmp>[/s/S]*)", "dest": "https://horain-goproxy-hk3.peterz.ml/$tmp" },
     { "src": "/horain-goproxy-fr(?<tmp>[/s/S]*)", "dest": "https://horain-goproxy-fr.peterz.ml/$tmp" },
-    { "src": "/heroku-goproxy-us(?<tmp>[/s/S]*)", "dest": "https://heroku-goproxy-us.peterz.ml/$tmp" },
-    { "src": "/heroku-goproxy-eu(?<tmp>[/s/S]*)", "dest": "https://heroku-goproxy-eu.peterz.ml/$tmp" },
+    { "src": "/heroku-goproxy-us(?<tmp>[/s/S]*)", "dest": "http://heroku-goproxy-us.peterz.ml/$tmp" },
+    { "src": "/heroku-goproxy-eu(?<tmp>[/s/S]*)", "dest": "http://heroku-goproxy-eu.peterz.ml/$tmp" },
     { "src": "/",  "dest": "/api/index.php" }
   ]
 }

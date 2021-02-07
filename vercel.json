@@ -5,7 +5,7 @@
     }
   },
   "routes": [
-    { "src": "/xrea-goproxy/(.*)",  "dest": "https://xrea-goproxy.peterz.ml" },
+    { "src": "/xrea-goproxy/(.*)",  "dest": "https://www.google.com" },
     { "src": "/vc-goproxy/(.*)",  "dest": "/api/index.php" }
   ]
 }

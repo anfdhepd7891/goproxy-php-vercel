@@ -6,6 +6,6 @@
   },
   "routes": [
     { "src": "/xrea-goproxy/(.*)",  "dest": "https://xrea-goproxy.peterz.ml" },
-    { "src": "/(.*)",  "dest": "/api/index.php" }
+    { "src": "/",  "dest": "/api/index.php" }
   ]
 }

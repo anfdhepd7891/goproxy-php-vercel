@@ -3,26 +3,5 @@
     "api/*.php": {
       "runtime": "vercel-php@0.4.0"
     }
-  },
-  "routes": [
-    { "src": "/kinto-goproxy-tw1(?<tmp>[/s/S]*)", "dest": "https://kinto-goproxy-tw1.peterz.ml/$tmp" },
-    { "src": "/kinto-goproxy-tw2(?<tmp>[/s/S]*)", "dest": "https://kinto-goproxy-tw2.peterz.ml/$tmp" },
-    { "src": "/kinto-goproxy-tw3(?<tmp>[/s/S]*)", "dest": "https://kinto-goproxy-tw3.peterz.ml/$tmp" },
-    { "src": "/kinto-goproxy-us(?<tmp>[/s/S]*)", "dest": "https://kinto-goproxy-us.peterz.ml/$tmp" },
-    { "src": "/kinto-goproxy-eu(?<tmp>[/s/S]*)", "dest": "https://kinto-goproxy-eu.peterz.ml/$tmp" },
-    { "src": "/zarvis-goproxy(?<tmp>[/s/S]*)", "dest": "https://zarvis-goproxy.peterz.ml/$tmp" },
-    { "src": "/xrea-goproxy(?<tmp>[/s/S]*)", "dest": "https://xrea-goproxy.peterz.ml/$tmp" },
-    { "src": "/vc-goproxy(?<tmp>[/s/S]*)", "dest": "https://vc-goproxy.peterz.ml/$tmp" },
-    { "src": "/horain-goproxy-uk(?<tmp>[/s/S]*)", "dest": "https://horain-goproxy-uk.peterz.ml/$tmp" },
-    { "src": "/horain-goproxy-sgp(?<tmp>[/s/S]*)", "dest": "https://horain-goproxy-sgp.peterz.ml/$tmp" },
-    { "src": "/horain-goproxy-kr(?<tmp>[/s/S]*)", "dest": "https://horain-goproxy-kr.peterz.ml/$tmp" },
-    { "src": "/horain-goproxy-jp(?<tmp>[/s/S]*)", "dest": "https://horain-goproxy-jp.peterz.ml/$tmp" },
-    { "src": "/horain-goproxy-hk1(?<tmp>[/s/S]*)", "dest": "https://horain-goproxy-hk1.peterz.ml/$tmp" },
-    { "src": "/horain-goproxy-hk2(?<tmp>[/s/S]*)", "dest": "https://horain-goproxy-hk2.peterz.ml/$tmp" },
-    { "src": "/horain-goproxy-hk3(?<tmp>[/s/S]*)", "dest": "https://horain-goproxy-hk3.peterz.ml/$tmp" },
-    { "src": "/horain-goproxy-fr(?<tmp>[/s/S]*)", "dest": "https://horain-goproxy-fr.peterz.ml/$tmp" },
-    { "src": "/heroku-goproxy-us(?<tmp>[/s/S]*)", "dest": "http://heroku-goproxy-us.peterz.ml/$tmp" },
-    { "src": "/heroku-goproxy-eu(?<tmp>[/s/S]*)", "dest": "http://heroku-goproxy-eu.peterz.ml/$tmp" },
-    { "src": "/",  "dest": "/api/index.php" }
-  ]
+  }
 }
